@@ -6,7 +6,7 @@
 let str = "Any string";
 let str2 = "Any newString";
 
-console.log(str.indexOf('A'));
+console.log(str.indexOf('B'));
 
 console.log(str.charAt(5));
 console.log("ASCII CODE OF %s is: %d",str.charAt(5),str.charCodeAt(5));
