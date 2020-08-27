@@ -18,13 +18,10 @@ speaker.addEventListener('click',function(){
         reply = "Hmm! That's a difficult question. I don't know how to respond to that.";
     }
     else{
-        reply = `I'm Sorry. My data are limited. If you want to add more data, please contact with Sohag`; 
+        reply = `I'm Sorry. My data are limited. If you want to add more data, please contact with Sohag`;
+        //reply = `对不起，找不到。`;
     }
     ans.innerHTML = reply;
     var msg = new SpeechSynthesisUtterance(reply);
-window.speechSynthesis.speak(msg);
+    window.speechSynthesis.speak(msg);
 })
-
-ans.innerHTML = "My answer";
-var x = "My Changed Answer";
-ans.innerHTML = x;
