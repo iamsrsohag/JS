@@ -25,3 +25,10 @@ function noArgument(){
 }
 let anyArgument = noArgument(23,45,45,62,45.2,72.489,7895,0.5)
 console.log("Average: "+ anyArgument);
+
+//Anonymous Function (Function as Expression)
+
+var anyThing = function(value1,value2){
+    return value1+value2;
+}
+console.log(anyThing(25,78));
