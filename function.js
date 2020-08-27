@@ -32,3 +32,23 @@ var anyThing = function(value1,value2){
     return value1+value2;
 }
 console.log(anyThing(25,78));
+
+//Arrow Function (lambda function)
+
+//For Single Argument.
+anyFunction = value => value+1;
+console.log(anyFunction(6))
+
+//For Multiple Argument.
+arrowFunction = (multiValue,multiValue2)=>multiValue+multiValue2;
+console.log(arrowFunction(45,63));
+
+//For Multiple arguments with more Epxression/Logic
+
+arrowWithExp = (num1,num2,num3)=>{
+    if((num1+num2+num3<50)){
+        return "Smaller Than 50";
+    }
+    return num1+num2+num3;
+}
+console.log(arrowWithExp(45,75,91));
